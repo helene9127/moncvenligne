@@ -1,0 +1,303 @@
+h1 {
+  color: #f5f5dc; 
+  font-family:"Fira Sans";
+  font-size: 66px;
+  font-variant: small-caps;
+  text-align: center; 
+}
+
+
+#deb{
+  color:#f5f5dc;
+  text-align:center;
+}
+
+h2{
+  color:#191970;
+  font-family:"Fira Sans";
+  font-size: 44px;
+  font-variant: small-caps;
+  text-align: start;
+  text-decoration: underline;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h3{
+  color:#000000;
+  font-family:"Fira Sans";
+  font-size: 20px;
+  font-weight:400;
+}
+
+h4{
+  color:#191970;
+  font-family:"Fira Sans";
+  font-size: 22px;
+  text-decoration: underline;
+  font-style: italic;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 5px;
+  margin-inline-end: 5px;
+}
+
+h5{
+  color:#191970;
+  font-family:"Fira Sans";
+  font-size:18px;
+  font-style:italic;
+  font-weight: 200;
+}
+
+#corps{ 
+  background-color:#ffffff;
+  justify-content: center;
+  margin: 0 25px 0 25px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  justify-content: space-evenly;
+}
+
+#body{
+  background:linear-gradient(#484D74,#ffffff);
+  margin: 0 0 0 0;
+  justify-content: space-evenly;
+}
+
+#menu{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  background-color:#f0ffff;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+#corps2{
+  padding: 5px 5px 5px 5px;
+}
+
+#monProfil{
+  background-color:white;
+  margin: 20px 20px 20px 20px;
+  justify-content: space-evenly;
+}
+
+#cache1:{
+  background-color: red;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+}
+
+
+
+/*profil*/
+
+#prof{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+
+}
+
+#pdp{
+  height:250px;
+  width: 250px;
+  border-radius:50px;
+}
+
+#para1{
+  justify-content:flex-end;
+  height: 100px;
+  width: 800px;
+}
+
+/*expériences professionnelles*/
+
+#mesexpé{
+  margin: 20px 20px 20px 20px;
+}
+
+#exp1{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  border-style:solid;
+  border-width: 1px;
+  border-color:#484D74;
+}
+
+#come{
+ width: 100px;
+ height: 100px;
+ object-fit: scale-down;
+}
+
+#exp2{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  border-style:solid;
+  border-width: 1px;
+  border-color:#484D74;
+}
+
+#bnp1{
+ width: 200px;
+ height: 200px;
+ object-fit: scale-down;
+}
+
+#exp3{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  border-style:solid;
+  border-width: 1px;
+  border-color:#484D74;
+}
+
+#bnp2{
+ width: 200px;
+ height: 200px;
+ object-fit: scale-down;
+}
+
+
+/*formations*/
+#mesForms{
+  margin: 20px 20px 20px 20px;
+}
+
+#form1{
+  display:flex;
+  flex-direction:row;
+  border-style:solid;
+  border-width: 1px;
+  border-color:#484D74;
+  padding: 10px 10px;
+  justify-content:space-evenly;
+}
+
+#dau1{
+ width: 250px;
+ height: 250px;
+ object-fit: scale-down;
+}
+
+#form2{
+  display:flex;
+  flex-direction:row;
+  border-style:solid;
+  border-width: 1px;
+  border-color:#484D74;
+  padding: 10px 10px;
+  justify-content:space-evenly;
+}
+
+#dau2{
+ width: 250px;
+ height: 250px;
+ object-fit: scale-down;
+}
+
+#form3{
+  display:flex;
+  flex-direction:row;
+  border-style:solid;
+  border-width: 1px;
+  border-color:#484D74;
+  padding: 10px 10px;
+  justify-content:space-evenly;
+}
+
+#saclay1{
+ width: 125px;
+ height: 125px;
+ object-fit: scale-down;
+}
+
+/*langues et info*/
+#mesleti{
+  margin: 20px 20px 20px 20px;
+  justify-content: space-evenly;
+}
+
+/* #toeic{ */
+/*   width: 150px; */
+/*   height:150px; */
+/*   object-fit:scale-down; */
+/*   justify-content: flex-end; */
+/* } */
+
+
+li{
+display : list-item;
+list-style-type:square;
+font-family:"Zilla Slab";
+padding-top: 10px; 
+padding-bottom: 10px;
+}
+
+p{
+  color:#000000;
+  font-family:"Zilla Slab";  
+}
+
+#mecontacter{
+  margin: 20px 20px 20px 20px;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+form{
+  font-family:"Zilla Slab";
+  color:#000000;
+}
+
+#pargraphe{
+  height: 150px;
+  width: 1000px;
+  border-radius: 20px;
+  border-width: 2px;
+}
+#nom{
+  border-radius: 20px;
+  border-width: 2px;
+}
+#e-mail{
+  border-radius: 20px;
+  border-width: 2px;
+}
+
+/*bas de page*/
+footer{
+  background-color:#ffffff;
+}
+
+#bas{
+  color:#484D74;
+}
+
+#link{
+  width: 20px;
+  height:20px;
+  object-fit:scale-down;
+  align-content: center;
+  justify-content: center;
+  padding: 10px 10px;
+}
+
+#foot{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-style:dashed;
+  border-width: 2px;
+  border-color:#484D74;
+  align-content:center;
+  margin: 0 25px 25px 25px;
+}
