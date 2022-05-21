@@ -16,7 +16,7 @@
 // document.getElementById("monProfil").style.display = "none";
 // });
 
-document.getElementById("cache3").addEventListener("click", function () {
-  document.getElementById("mesForms").style.display="none"
-});
+//document.getElementById("cache3").addEventListener("click", function () {
+  //document.getElementById("mesForms").style.display="none"
+//});
 
