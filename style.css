@@ -1,6 +1,7 @@
 h1 {
-  color: #f5f5dc; 
+  color: #B3CCFF; 
   font-family:"Fira Sans";
+  text-shadow: 4px 4px grey;
   font-size: 66px;
   font-variant: small-caps;
   text-align: center; 
@@ -8,12 +9,12 @@ h1 {
 
 
 #deb{
-  color:#f5f5dc;
+  color:#002266;
   text-align:center;
 }
 
 h2{
-  color:#191970;
+  color:#002266;
   font-family:"Fira Sans";
   font-size: 44px;
   font-variant: small-caps;
@@ -23,17 +24,18 @@ h2{
   margin-block-end: 0em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  padding: 35px;
 }
 
 h3{
-  color:#000000;
+  color:#002266;
   font-family:"Fira Sans";
   font-size: 20px;
   font-weight:400;
 }
 
 h4{
-  color:#191970;
+  color: #002266;
   font-family:"Fira Sans";
   font-size: 22px;
   text-decoration: underline;
@@ -45,7 +47,7 @@ h4{
 }
 
 h5{
-  color:#191970;
+  color:#002266;
   font-family:"Fira Sans";
   font-size:18px;
   font-style:italic;
@@ -53,17 +55,12 @@ h5{
 }
 
 #corps{ 
-  background-color:#ffffff;
   justify-content: center;
-  margin: 0 25px 0 25px;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
   justify-content: space-evenly;
 }
 
 #body{
-  background:linear-gradient(#484D74,#ffffff);
-  margin: 0 0 0 0;
+  background: #ffffff;
   justify-content: space-evenly;
 }
 
@@ -71,28 +68,57 @@ h5{
   display:flex;
   flex-direction: row;
   justify-content:space-evenly;
-  background-color:#f0ffff;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+  padding: 10px 10px;
+  margin: 0 175px 0 175px;
 }
 
 #corps2{
   padding: 5px 5px 5px 5px;
+  margin: 0 175px 0 175px;
 }
 
 #monProfil{
-  background-color:white;
   margin: 20px 20px 20px 20px;
   justify-content: space-evenly;
 }
 
-#cache1:{
-  background-color: red;
-  border-top-left-radius:20px;
-  border-top-right-radius:20px;
+#cache1:hover{
+  background-color:#B3CCFF ;
+  border-radius:50px 50px 50px 50px;
+  box-shadow: 5px;
 }
 
+#cache2:hover{
+  background-color:#B3CCFF ;
+  border-radius:50px 50px 50px 50px;
+  box-shadow: 5px;
+}
 
+#cache3:hover{
+  background-color:#B3CCFF ;
+  border-radius:50px 50px 50px 50px;
+  box-shadow: 5px;
+}
+
+#cache4:hover{
+  background-color:#B3CCFF ;
+  border-radius:50px 50px 50px 50px;
+  box-shadow: 5px;
+}
+
+#cache5:hover{
+  background-color:#B3CCFF ;
+  border-radius:50px 50px 50px 50px;
+  box-shadow: 5px;
+}
+
+#cache6:hover{
+  background-color:#B3CCFF ;
+  border-radius:50px 50px 50px 50px;
+  box-shadow: 5px;
+}
 
 /*profil*/
 
@@ -100,19 +126,24 @@ h5{
   display:flex;
   flex-direction:row;
   justify-content: space-evenly;
+  align-content: center;
 
 }
 
 #pdp{
   height:250px;
   width: 250px;
-  border-radius:50px;
+  border-radius:50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  box-shadow: 2px 2px;
 }
 
 #para1{
   justify-content:flex-end;
   height: 100px;
-  width: 800px;
+  width: 400px;
 }
 
 /*expériences professionnelles*/
@@ -121,13 +152,30 @@ h5{
   margin: 20px 20px 20px 20px;
 }
 
-#exp1{
+#lac{
+ width: 100px;
+ height: 100px;
+ object-fit: scale-down;
+}
+
+#exp4{
   display:flex;
   flex-direction:row;
-  justify-content:space-evenly;
+  justify-content:space-around;
   border-style:solid;
   border-width: 1px;
   border-color:#484D74;
+  padding: 5px 5px;
+}
+
+#exp1{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  border-style:solid;
+  border-width: 1px;
+  border-color:#484D74;
+  padding: 5px 5px;
 }
 
 #come{
@@ -139,10 +187,11 @@ h5{
 #exp2{
   display:flex;
   flex-direction:row;
-  justify-content:space-evenly;
+  justify-content:space-around;
   border-style:solid;
   border-width: 1px;
   border-color:#484D74;
+  padding: 5px 5px;
 }
 
 #bnp1{
@@ -154,10 +203,11 @@ h5{
 #exp3{
   display:flex;
   flex-direction:row;
-  justify-content:space-evenly;
+  justify-content:space-around;
   border-style:solid;
   border-width: 1px;
   border-color:#484D74;
+  padding: 5px 5px;
 }
 
 #bnp2{
@@ -188,6 +238,13 @@ h5{
  object-fit: scale-down;
 }
 
+#carte1{
+  border-radius: 50px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
 #form2{
   display:flex;
   flex-direction:row;
@@ -204,6 +261,13 @@ h5{
  object-fit: scale-down;
 }
 
+#carte2{
+  border-radius: 50px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
 #form3{
   display:flex;
   flex-direction:row;
@@ -218,6 +282,13 @@ h5{
  width: 125px;
  height: 125px;
  object-fit: scale-down;
+}
+
+#carte3{
+  border-radius: 50px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
 }
 
 /*langues et info*/
@@ -243,7 +314,7 @@ padding-bottom: 10px;
 }
 
 p{
-  color:#000000;
+  color:#003366;
   font-family:"Zilla Slab";  
 }
 
@@ -283,8 +354,17 @@ footer{
 }
 
 #link{
-  width: 20px;
-  height:20px;
+  width: 60px;
+  height:60px;
+  object-fit:scale-down;
+  align-content: center;
+  justify-content: center;
+  padding: 10px 10px;
+}
+
+#link2{
+  width: 60px;
+  height:60px;
   object-fit:scale-down;
   align-content: center;
   justify-content: center;
@@ -295,9 +375,7 @@ footer{
   display:flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border-style:dashed;
-  border-width: 2px;
-  border-color:#484D74;
   align-content:center;
-  margin: 0 25px 25px 25px;
+  margin: 100px 175px 175px 175px;
+  padding: 10px;
 }
