@@ -17,33 +17,27 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+   <script src="/script.js" defer></script>
   </head>
   <body id="body"><h1>Mon CV en ligne</h1>
         <p id="deb">
-          Voici mon CV en ligne réalisé avec HTML, CSS et JavaScript
+          Voici mon CV en ligne réalisé avec HTML, CSS et JavaScript. Il est en cours d'amélioration.
         </p>
       <div id="corps">
           <nav id="menu">
-            <div id="cache1">
-              <h4><a href="index.html#monProfil">Profil </a></h4>
-            </div>
-            <div id="cache2">
-              <h4><a href="index.html#mesexpé">Expériences</a></h4>
-            </div>
-            <div id="cache3">
-              <h4><a href="index.html#mesForms">Formations</a></h4>
-            </div>
-            <div id="cache4">
-              <h4><a href="index.html#mesleti">Langues et informatique </a></h4>
-            </div>
-            <div id="cache5">
-              <h4><a href="index.html#mesassos">Centres d intéret et vie associative</a></h4>
-            </div>
-            <div id="cache6">
-              <h4><a href="index.html#mecontacter">Contact</a></h4>
-            </div>
-        </nav>
+              <div id="cache1">
+                <h4>Profil </h4></div>
+              <div id="cache2">
+                <h4 >Expériences</h4></div>
+              <div id="cache3">
+                <h4 >Formations</h4></div>
+              <div id="cache4">
+                <h4 >Compétences</h4></div>
+              <div id="cache5">
+                <h4 >Loisirs</h4></div>
+              <div id="cache6">
+                <h4 >Contact</h4></div>
+          </nav>
 <div id="corps2">
         <section id="monProfil">
           <h2 id="qui suis-je">Mon Profil</h2>
@@ -54,97 +48,95 @@
               alt="photo de profil"
             />
             <p id="para1">
-              Je m'appelle Hélène PAROUBEK. Je suis étudiante en première année
-              de master Affaires Internationales et Développement, majeur
-              Economie, à l'Université Paris-Dauphine.
+              Je m'appelle Hélène PAROUBEK. Je suis étudiante à l'Université Paris-Dauphine.
+              J'ai validé mon M1 Affaires Internationales et Développement et je suis, depuis
+              septembre 2022 en année de césure. Depuis juillet 2022 je travaille en tant que 
+              vendeuse à la boutique Lacoste des Champs Elysées et je recherche un stage dans 
+              les Affaires Internationales pour le 1er semestre de 2023.
             </p>
           </div>
         </section>
 
-        <section id="mesexpé">
+        <section id="mesexpé" style="display: none">
           <h2 id="expé">Mes Expériences professionnelles</h2>
-          <br />
           <p>Voici mes expériences professionnelles</p>
-
+          
+          <h3>Vendeuse</h3>
+          <h5>Juillet 2022 CDI/ Paris VIII</h5>
+          <div id="exp4">
+            <img
+                 id="lac"
+                 src="https://zupimages.net/up/22/51/juv9.png"
+                 alt="logo Lacoste"/>
+            <ul>
+              <li>Accueil des clients nationaux et internationaux</li>
+              <li>Gestion de la caisse</li>
+              <li>Travail d'équipe</li>
+            </ul>
+          </div>
+          
           <h3>Chargée de clientèle</h3>
+          <h5>Août 2021 (1 mois) /Orsay</h5>
           <div id="exp1">
            <img
               id="come"
               src="https://zupimages.net/up/22/20/hlts.jpg"
-              alt="logo Comearth"
-            />
-            <h5>Août 2021 (1 mois) /Orsay</h5>
-            <br />
+              alt="logo Comearth"/>
             <ul>
               <li>
-                Réception des appels entrants:<br />
-                des particuliers (TOUS ANTI-COVID)<br />
-                des professionnels de santé (SI-DEP)
+                Réception des appels entrants:<ul>
+                <li>des particuliers (TOUS ANTI-COVID)</li>
+                <li>des professionnels de santé (SI-DEP)</li></ul>
               </li>
-              <br />
               <li>Saisie informatique des appels (plateforme NIXXIS)</li>
             </ul>
-            <br />
           </div>
 
           <h3>Auxiliaire de Vacances-Pôle immobilier</h3>
+          <h5>Juillet 2021 (1 mois) /La Défense</h5>
           <div id="exp2">
            <img
               id="bnp1"
               src="https://zupimages.net/up/22/20/keyz.png"
-              alt="logo de BNP Paribas"
-            />
-            <h5>Juillet 2021 (1 mois) /La Défense</h5>
-            <br />
+              alt="logo de BNP Paribas"/>
             <ul>
               <li>Calculs des revenus,charges et taux d'endettement</li>
-              <br />
               <li>Montage de dossiers de demande de prêts</li>
-              <br />
             </ul>
           </div>
 
           <h3>Auxiliaire de vacances-Accueil</h3>
+          <h5>Août 2019 (1 mois) /Orly</h5>
           <div id="exp3">
             <img
               id="bnp2"
               src="https://zupimages.net/up/22/20/keyz.png"
-              alt="logo de BNP Paribas"
-            />
-            <h5>Août 2019 (1 mois) /Orly</h5>
-            <br />
+              alt="logo de BNP Paribas"/>
             <ul>
               <li>Accueil des clients</li>
-              <br />
               <li>Gestion des réclamations</li>
-              <br />
               <li>Gestion du courrier</li>
-              <br />
               <li>Travail en équipe</li>
-              <br />
             </ul>
           </div>
         </section>
 
-        <section id="mesForms">
+        <div id="mesForms" style="display: none">
           <h2 id="form">Mes Formations</h2>
           <br />
           <p>
-            Voici les formations que j'ai reçues depuis l'obtention de mon
+            Voici les formations que j'ai suivies depuis l'obtention de mon
             Baccalauréat.
           </p>
           <h3>
             Master 1 Affaires Internationale et Développement (AID), Economie
           </h3>
-          <br />
+           <h5>2021-2022/Universite PARIS-DAUPHINE</h5>
           <div id="form1">
             <img
               id="dau1"
               src="https://zupimages.net/up/22/20/cyuz.png"
-              alt="logo de l'Université PARIS-DAUPHINE"
-            />
-            <h5>2021-2022/Universite PARIS-DAUPHINE</h5>
-            <br />
+              alt="logo de l'Université PARIS-DAUPHINE"/>
             <div>
               <p>
                 1ère année de Master AID en majeure Economie. Mes cours
@@ -156,15 +148,13 @@
                 <li>Econométrie</li>
                 <li>Economie Internationale II</li>
                 <li>
-                  Mémoire: Les inégalités salariales de genre au Mexique (lien
-                  pdf)
+                  Mémoire: Les inégalités salariales de genre au Mexique (<a href="file:///C:/Users/Beyonc%C3%A9/Downloads/Me%CC%81moire%20.pdf">lien pdf)</a>
                 </li>
               </ul>
             </div>
-            <iframe
+            <iframe id="carte1"
               width="300"
               height="300"
-              style="border: 0"
               loading="lazy"
               allowfullscreen
               referrerpolicy="no-referrer-when-downgrade"
@@ -175,15 +165,12 @@
           </div>
 
           <h3>Licence 3 Economie Internationale et Développement, Economie</h3>
-          <br />
+          <h5>2020-2021-Université PARIS-DAUPHINE</h5>
           <div id="form2">
             <img
               id="dau2"
               src="https://zupimages.net/up/22/20/cyuz.png"
-              alt="logo de l'Université PARIS-DAUPHINE"
-            />
-            <h5>2020-2021-Université PARIS-DAUPHINE</h5>
-            <br />
+              alt="logo de l'Université PARIS-DAUPHINE"/>
             <div>
               <p>
                 3ème année de Licence Economie Internationale et Développement.
@@ -198,10 +185,9 @@
                 <li>Mémoire: Le commerce de la Grèce</li>
               </ul>
             </div>
-            <iframe
+            <iframe id="carte2"
               width="300"
               height="300"
-              style="border: 0"
               loading="lazy"
               allowfullscreen
               referrerpolicy="no-referrer-when-downgrade"
@@ -212,15 +198,12 @@
           </div>
 
           <h3>Licence 1 et 2 Economie-Gestion</h3>
-          <br />
+          <h5>2018-2020-Université PARIS-SACLAY</h5>
           <div id="form3">
             <img
               id="saclay1"
               src="https://zupimages.net/up/22/20/4uu5.jpg"
-              alt="logo de l'Université PARIS-SACLAY"
-            />
-            <h5>2018-2020-Université PARIS-SACLAY</h5>
-            <br />
+              alt="logo de l'Université PARIS-SACLAY"/>
             <div>
               <p>
                 Première et Deuxième année de Licence Economie-Gestion. Mes
@@ -233,10 +216,9 @@
                 <li>Microéconomie</li>
               </ul>
             </div>
-            <iframe
+            <iframe id="carte3"
               width="300"
               height="300"
-              style="border: 0"
               loading="lazy"
               allowfullscreen
               referrerpolicy="no-referrer-when-downgrade"
@@ -245,9 +227,9 @@
             >
             </iframe>
           </div>
-        </section>
+        </div>
 
-        <section id="mesleti">
+        <section id="mesleti" style="display: none">
           <h2 id="leti">Mes Langues et Informatique</h2>
           
           <ul>
@@ -259,18 +241,18 @@
           </ul>
         </section>
 
-        <section id="mesassos">
+        <section id="mesassos" style="display: none">
           <h2 id="asso">Mes Centres d'interet et vie associative</h2>
           <ul>
             <li><i class="fa-solid fa-horse"></i><h5>2008-Aujourd'hui</h5><p>
               Equitation éthologique</p></li>
             <li><i class="fa-solid fa-earth-americas"></i><h5>2014-2016</h5><p>
               Echanges scolaires en Allemagne: Franckfort, Berlin</p></li>
-            <li><i class="fa-solid fa-dumbbell"></i><h5>Sport:</h5><p>Judo, Gymnastique, Escalade, Badminton, Musculation, Course à Pied</p></li>
+            <li><i class="fa-solid fa-dumbbell"></i><h5>Sport:</h5><p>Judo, Gymnastique, Escalade, Badminton, Musculation, Course à Pieds</p></li>
           </ul>
         </section>
 
-        <section id="mecontacter">
+        <section id="mecontacter" style="display: none">
           <h2 id="contact">Contact</h2>
           <br />
           <p>Vous souhaitez me contacter?</p>
@@ -293,13 +275,10 @@
   </body>
 
   <footer id="foot">
-    <p id="bas">Mon Linkedin</p>
-    <img
+    <a href="https://www.linkedin.com/in/h%C3%A9l%C3%A8ne-paroubek-1b39231a1/"> <img
       id="link"
       src="https://zupimages.net/up/22/20/e2cl.png"
-      alt="logo Linkedin"
-      href="https://www.linkedin.com/in/h%C3%A9l%C3%A8ne-paroubek-1b39231a1/"
-    />
-    
+    alt="logo Linkedin" > </a> 
+    <a href="https://www.facebook.com/helene.par.18/" ><img id="link2" src="https://zupimages.net/up/22/21/djgh.png" alt="logo Facebook"></a>
   </footer>
 </html>
